@@ -7,6 +7,14 @@
     --footer-background-color: #2F303A;
     --footer-contact-color: rgba(255, 255, 255, .6);
 }
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
 body {
     color: var(--primary-color);
     background-color: var(--primary-background-color);
@@ -33,13 +41,7 @@ header .contacts {
 header .logo{
     color: #000;
 }
-a {
-    text-decoration: none;
-   
-}
-ul {
-    list-style-type: none;
-}
+
 footer {
     background-color: var(--footer-background-color);  
 }
@@ -94,7 +96,7 @@ header .contacts {
     line-height: 1.19;
     text-align: center;
 }
-footer address {
+address .contacts{
     color: var(--primary-background-color);
     font-style: normal;
     font-size: 14px;
@@ -111,7 +113,8 @@ span,
     color: var(--logo-color);
 }
 
-footer .contacts {
+.contacts.email,
+.contacts.phone {
     color: var(--footer-contact-color);
 }
 
