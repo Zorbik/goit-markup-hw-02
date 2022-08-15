@@ -32,7 +32,7 @@ header .contacts {
 }
 .logo {
     color: var(--primary-background-color);
-    font-family: Raleway, serif;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -42,7 +42,8 @@ header .logo{
     color: #000;
 }
 
-footer {
+footer,
+.hero {
     background-color: var(--footer-background-color);  
 }
 .hero button,
@@ -65,6 +66,10 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+.section .text {
+    font-size: 14px;
+    line-height: 1.71;
 }
 .hero button {
     font-weight: 700;
