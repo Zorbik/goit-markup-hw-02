@@ -109,7 +109,13 @@ span,
 .site-nav:active,
 .contacts:focus,
 .contacts:hover,
-.contacts:active {
+.contacts:active,
+.contacts.email:hover,
+.contacts.phone:hover,
+.contacts.email:active,
+.contacts.phone:active,
+.contacts.email:focus,
+.contacts.phone:focus {
     color: var(--logo-color);
 }
 
